@@ -4,12 +4,12 @@
 	import { inputParts, suggest, value } from './../store/keyboard';
 
 	function addPart(value: Part) {
-		$inputParts.push(value);
+		$inputParts = [...$inputParts, value];
 		updateSuggest();
 	}
 
 	function deletePart() {
-		$inputParts.pop();
+		$inputParts = $inputParts.slice(0, -1);
 		updateSuggest();
 	}
 
