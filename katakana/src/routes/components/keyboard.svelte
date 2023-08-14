@@ -9,6 +9,10 @@
 	}
 
 	function deletePart() {
+		if ($inputParts.length === 0) {
+			$value = $value.slice(0, -1);
+		}
+
 		$inputParts = $inputParts.slice(0, -1);
 		updateSuggest();
 	}
