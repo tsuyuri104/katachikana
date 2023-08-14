@@ -93,8 +93,6 @@
 </div>
 
 <style lang="scss">
-	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
 	.suggest {
 		display: grid;
 		align-items: end;
@@ -138,7 +136,6 @@
 
 	.keytop {
 		font-size: 2.5em;
-		font-family: 'Noto Sans JP', sans-serif;
 		background-color: var(--keycolor);
 		border: 1px solid var(--keycolor);
 		border-radius: 0.25em;
