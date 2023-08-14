@@ -182,7 +182,7 @@ export const katakana: {
 		char: 'レ',
 	},
 	{
-		parts: ['‐', '｜', '｜', '‐'],
+		parts: ['｜', '‐', '｜', '‐'],
 		char: 'ロ',
 	},
 	{
