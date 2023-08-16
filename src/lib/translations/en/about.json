@@ -1,0 +1,44 @@
+{
+  "what-is-this": {
+    "heading": "What is KATA-CHI-KANA",
+    "text": {
+      "1": "KATA-CHI-KANA is a service that allows you to input Japanese Katakana characters based on their shapes.",
+      "2": "It is targeted towards learners who haven't memorized the 50 basic sounds of Hiragana or those who struggle to match characters with their corresponding sounds.",
+      "3": "It is not a comprehensive learning support service, but rather aims to facilitate learning through a gamified approach."
+    }
+  },
+  "why-we-made-it": {
+    "heading": "Why We Created KATA-CHI-KANA",
+    "text": {
+      "1": "The primary methods for inputting Japanese text are flick input and Romanized input.",
+      "2": "With flick input, you need to memorize the 50 basic sounds. With Romanized input, you need to understand the phonetic representation.",
+      "3": "We thought it would be interesting to explore alternative input methods beyond these two. Additionally, we wanted to make learning Japanese characters enjoyable for foreigners learning the language, which led to the creation of this service."
+    }
+  },
+  "how-to-input": {
+    "heading": "How to Input",
+    "text": {
+      "1": "Follow the stroke order and tap the shapes. Katakana suggestions will be provided."
+    }
+  },
+  "what-did-we-refer": {
+    "heading": "References",
+    "text": {
+      "1": "We drew inspiration mainly from the Chinese character input method 'Cangjie Input Method,' commonly used in Hong Kong, and the 'Cheonjiin' input method for Hangeul, commonly used in South Korea.",
+      "2": "We extracted simple and versatile components to establish rules for forming Katakana characters."
+    }
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "link": {
+      "1": {
+        "href": "https://forms.gle/yDfiM1Gdg6vHcJVZ8",
+        "text": "Google form"
+      },
+      "2": {
+        "href": "https://github.com/tsuyuri104/katachikana",
+        "text": "GitHub"
+      }
+    }
+  }
+}
