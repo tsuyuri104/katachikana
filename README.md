@@ -1,38 +1,32 @@
-# create-svelte
+# What is KATA-CHI-KANA
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Hosting
 
-## Creating a project
+https://katachikana.web.app/
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Description
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+KATA-CHI-KANA is a service that enables users to input Japanese Katakana characters by their shapes.
+It is designed for learners who have not yet memorized the 50 basic sounds of Hiragana or who struggle to associate characters with their corresponding sounds.
+While not a comprehensive learning support service, its purpose is to offer a gamified approach to learning.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Why We Created KATA-CHI-KANA
 
-## Developing
+The predominant methods for inputting Japanese text are flick input and Romanized input.
+Flick input requires memorizing the 50 basic sounds, whereas Romanized input demands an understanding of phonetic representation.
+We embarked on creating KATA-CHI-KANA to explore alternative input methods beyond these two.
+Furthermore, we aimed to make the learning of Japanese characters an enjoyable experience for foreign learners of the language.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## How to Input
 
-```bash
-npm run dev
+To input characters, follow the stroke order and tap on the shapes.
+The service provides Katakana suggestions based on your input.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## References
 
-## Building
+We drew inspiration primarily from the 'Cangjie Input Method,' a Chinese character input method widely used in Hong Kong, and the 'Cheonjiin' input method for Hangeul, commonly used in South Korea.
+We devised rules for forming Katakana characters by extracting simple and versatile components.
 
-To create a production version of your app:
+## License
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+KATA-CHI-KANA is licensed under the MIT License
