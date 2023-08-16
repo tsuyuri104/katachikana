@@ -45,4 +45,26 @@
 	/>
 </svelte:head>
 
-<slot />
+<main class="main">
+	<slot />
+</main>
+
+<style lang="scss">
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+	.main {
+		width: 100svw;
+		height: 100svh;
+		margin-inline: auto;
+		font-family: 'Noto Sans JP', sans-serif;
+
+		// for PC
+		@media (400px <= width) {
+			width: 375px;
+			height: 750px;
+			border: 1px solid #808080;
+			border-radius: 1em;
+			box-shadow: rgba(#000000, 0.1) 0px 4px 0.8em;
+		}
+	}
+</style>
