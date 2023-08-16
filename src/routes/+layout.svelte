@@ -6,7 +6,6 @@
 	import { getAnalytics } from 'firebase/analytics';
 	import { initializeApp } from 'firebase/app';
 	import { onMount } from 'svelte';
-	import OGP from './_images/ogp.png';
 
 	onMount(() => {
 		// Initialize Firebase
@@ -41,7 +40,11 @@
 	/>
 	<meta
 		property="og:image"
-		content={`${OGP}`}
+		content="/ogp.png"
+	/>
+	<meta
+		name="twitter:card"
+		content="summary"
 	/>
 </svelte:head>
 
