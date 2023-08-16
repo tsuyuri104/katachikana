@@ -57,6 +57,7 @@
 		height: 100svh;
 		margin-inline: auto;
 		font-family: 'Noto Sans JP', sans-serif;
+		overflow-y: scroll;
 
 		// for PC
 		@media (400px <= width) {
