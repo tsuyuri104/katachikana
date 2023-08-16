@@ -22,7 +22,7 @@
 				<li class="item">
 					<a
 						href="https://forms.gle/yDfiM1Gdg6vHcJVZ8"
-						class="link">Contact</a
+						class="link">Contact us</a
 					>
 				</li>
 			</ul>
