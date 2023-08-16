@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Parts, katakana, type Part } from '$lib/rule/katakana';
-	import backspace from './../images/backspace.svg';
-	import { inputParts, suggest, value } from './../store/keyboard';
+	import { inputParts, suggest, value } from '../_store/keyboard';
+	import backspace from './../_images/backspace.svg';
 
 	function addPart(value: Part) {
 		$inputParts = [...$inputParts, value];

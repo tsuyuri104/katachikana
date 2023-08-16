@@ -6,7 +6,7 @@
 	import { getAnalytics } from 'firebase/analytics';
 	import { initializeApp } from 'firebase/app';
 	import { onMount } from 'svelte';
-	import OGP from './images/ogp.png';
+	import OGP from './_images/ogp.png';
 
 	onMount(() => {
 		// Initialize Firebase
