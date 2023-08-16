@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { dev } from '$app/environment';
 	import { page } from '$app/stores';
 	import { firebaseConfig } from '$lib/firebase/config';
 	import 'destyle.css/destyle.css';
@@ -7,9 +6,11 @@
 	import { initializeApp } from 'firebase/app';
 	import { onMount } from 'svelte';
 
+	export let data;
+
 	onMount(() => {
 		// Initialize Firebase
-		if (!dev) {
+		if (!data.dev) {
 			const app = initializeApp(firebaseConfig);
 			getAnalytics(app);
 		}
