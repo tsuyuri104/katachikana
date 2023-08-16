@@ -58,6 +58,11 @@
 </script>
 
 <div class="suggest">
+	<div class="inputed">
+		{#each $inputParts as part}
+			<div class="inputed-value">{part}</div>
+		{/each}
+	</div>
 	<div class="suggest-button-wrapper">
 		{#each $suggest as char}
 			<button
@@ -93,9 +98,19 @@
 </div>
 
 <style lang="scss">
+	.inputed {
+		display: flex;
+		&-value {
+			padding: 0.5em;
+			color: #ffffff;
+			background-color: #b4b4b4;
+		}
+	}
+
 	.suggest {
-		display: grid;
-		align-items: end;
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
 		&-button-wrapper {
 			display: grid;
 			grid-template-columns: repeat(5, auto);
